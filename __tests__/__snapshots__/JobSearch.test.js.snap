@@ -1,0 +1,409 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JobSearch snapshot renders correctly 1`] = `
+<ScrollView>
+  <View
+    style={
+      Object {
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "gray",
+          "fontSize": 12,
+          "marginBottom": 5,
+          "marginLeft": 5,
+          "marginTop": 5,
+        }
+      }
+    >
+      Program(s) of Study
+    </Text>
+    <MultiSelect
+      data={
+        Map {
+          1 => "computer engineering",
+          7 => "software engineering",
+          4 => "international law",
+          6 => "biotechnology",
+          2 => "chemistry",
+          12 => "ancient history",
+          42 => "world literature",
+          13 => "Law -> International Law",
+          41 => "Science -> Biology",
+          55 => "Very long title that goes on for ever and ever and ever and never ends",
+        }
+      }
+      defaultSelection={null}
+      displayComponent={[Function]}
+      doneButtonText="Done"
+      onSelectionComplete={[Function]}
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "gray",
+          "fontSize": 12,
+          "marginBottom": 5,
+          "marginLeft": 5,
+          "marginTop": 5,
+        }
+      }
+    >
+      Organization
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 15,
+          "fontSize": 18,
+          "marginBottom": 15,
+          "padding": 10,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value={null}
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "gray",
+          "fontSize": 12,
+          "marginBottom": 5,
+          "marginLeft": 5,
+          "marginTop": 5,
+        }
+      }
+    >
+      Job Title
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 15,
+          "fontSize": 18,
+          "marginBottom": 15,
+          "padding": 10,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value={null}
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "gray",
+          "fontSize": 12,
+          "marginBottom": 5,
+          "marginLeft": 5,
+          "marginTop": 5,
+        }
+      }
+    >
+      Job Number
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      keyboardType="numeric"
+      onChangeText={[Function]}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 15,
+          "fontSize": 18,
+          "marginBottom": 15,
+          "padding": 10,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value={null}
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "gray",
+          "fontSize": 12,
+          "marginBottom": 5,
+          "marginLeft": 5,
+          "marginTop": 5,
+        }
+      }
+    >
+      City
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 15,
+          "fontSize": 18,
+          "marginBottom": 15,
+          "padding": 10,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value={null}
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "gray",
+          "fontSize": 12,
+          "marginBottom": 5,
+          "marginLeft": 5,
+          "marginTop": 5,
+        }
+      }
+    >
+      Country
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 15,
+          "fontSize": 18,
+          "marginBottom": 15,
+          "padding": 10,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value={null}
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "gray",
+          "fontSize": 12,
+          "marginBottom": 5,
+          "marginLeft": 5,
+          "marginTop": 5,
+        }
+      }
+    >
+      State/Province (Only for Canada or USA)
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 15,
+          "fontSize": 18,
+          "marginBottom": 15,
+          "padding": 10,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value={null}
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "gray",
+          "fontSize": 12,
+          "marginBottom": 5,
+          "marginLeft": 5,
+          "marginTop": 5,
+        }
+      }
+    >
+      Posted From
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 15,
+          "fontSize": 18,
+          "marginBottom": 15,
+          "padding": 10,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value={null}
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "gray",
+          "fontSize": 12,
+          "marginBottom": 5,
+          "marginLeft": 5,
+          "marginTop": 5,
+        }
+      }
+    >
+      Posted To
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 15,
+          "fontSize": 18,
+          "marginBottom": 15,
+          "padding": 10,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value={null}
+    />
+    <View
+      style={
+        Object {
+          "alignContent": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginTop": 5,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#a9343a",
+            "borderRadius": 15,
+            "height": 50,
+            "opacity": 1,
+            "padding": 15,
+            "width": "32%",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "white",
+              "fontWeight": "bold",
+              "textAlign": "center",
+            }
+          }
+        >
+          SAVE
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#a9343a",
+            "borderRadius": 15,
+            "height": 50,
+            "opacity": 1,
+            "padding": 15,
+            "width": "32%",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "white",
+              "fontWeight": "bold",
+              "textAlign": "center",
+            }
+          }
+        >
+          LOAD
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#a9343a",
+            "borderRadius": 15,
+            "height": 50,
+            "opacity": 1,
+            "padding": 15,
+            "width": "32%",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        />
+      </View>
+    </View>
+  </View>
+</ScrollView>
+`;

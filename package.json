@@ -1,0 +1,56 @@
+{
+  "name": "trident",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "exp start --tunnel",
+    "prod": "exp start --tunnel --no-dev --minify",
+    "eject": "react-native-scripts eject",
+    "android": "exp android",
+    "ios": "exp ios",
+    "test": "node node_modules/jest/bin/jest.js",
+    "test-coverage": "node node_modules/jest/bin/jest.js --collectCoverage --coverageDirectory \"./coverage\"",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,json,css}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "coverageReporters": [
+      "lcov"
+    ]
+  },
+  "dependencies": {
+    "expo": "^30.0.0",
+    "whatwg-fetch": "2.0.4",
+    "prop-types": "^15.6.0",
+    "qs": "^6.5.1",
+    "react": "16.5.2",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz",
+    "react-native-check-box": "^2.1.0",
+    "react-native-easy-toast": "^1.1.0",
+    "react-native-hyperlink": "0.0.14",
+    "react-native-swipeable": "^0.6.0",
+    "react-native-switch-pro": "^1.0.1-beta",
+    "react-navigation": "^2.17.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "exp": "^57.2.1",
+    "husky": "^1.1.2",
+    "jest": "^23.6.0",
+    "jest-expo": "30.0.0",
+    "lint-staged": "^7.3.0",
+    "prettier": "1.14.3",
+    "react-native-scripts": "^2.0.1",
+    "react-test-renderer": "16.5.2",
+    "redux-logger": "^3.0.6"
+  }
+}

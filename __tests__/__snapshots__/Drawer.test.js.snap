@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Drawer snapshot renders correctly 1`] = `
+<ScrollView>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#8f001a",
+        "height": 140,
+        "justifyContent": "center",
+        "padding": 20,
+      }
+    }
+  >
+    <Image
+      resizeMode="contain"
+      source={1}
+      style={
+        Object {
+          "height": 50,
+          "width": 75,
+        }
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 30,
+        }
+      }
+    >
+      John Smith
+    </Text>
+  </View>
+  <DrawerItems
+    onItemPress={[Function]}
+    renderIcon={[Function]}
+    studentProfile={
+      Object {
+        "firstName": "John",
+        "lastName": "Smith",
+      }
+    }
+  />
+</ScrollView>
+`;

@@ -1,0 +1,35 @@
+# Javascript Node CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-javascript/ for more details
+#
+version: 2
+jobs:
+  build:
+    environment:
+      CC_TEST_REPORTER_ID: 3a3c6ee55386e2613441ed3a3b8a88524394bc1a9254969d1d7d678938b7c73d
+    docker:
+      # specify the version you desire here
+      - image: circleci/node:8.11
+
+    working_directory: ~/trident
+
+    steps:
+      - checkout
+
+      - run: npm install
+
+      #run prettier
+      - run: npm run precommit
+
+      #run coverage
+      - run:
+          name: Setup Code Climate test-reporter
+          command: |
+            curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+            chmod +x ./cc-test-reporter
+      - run:
+          name: Run tests
+          command: |
+            ./cc-test-reporter before-build
+            npm run test-coverage
+            ./cc-test-reporter after-build --coverage-input-type lcov --exit-code $?

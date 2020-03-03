@@ -1,0 +1,308 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Admission snapshot renders correctly 1`] = `
+<ScrollView>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "backgroundColor": "#a9343a",
+        "color": "white",
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "padding": 10,
+        "textAlign": "center",
+      }
+    }
+  >
+    Enrollment Details
+  </Text>
+  <View
+    style={
+      Object {
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 16,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      You're currently registered in:
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 15,
+          "paddingBottom": 10,
+        }
+      }
+    >
+      Bachelor of Applied Science Software Engineering (Co-op)
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 16,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Your current CO-OP status is:
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 15,
+          "paddingBottom": 10,
+        }
+      }
+    >
+      Admitted
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 16,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      First expected work term:
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 15,
+          "paddingBottom": 10,
+        }
+      }
+    >
+      2015, Summer
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 16,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Special condition of admission:
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 15,
+          "paddingBottom": 10,
+        }
+      }
+    >
+      Must maintain a minimum CGPA of 4.5. Must complete all courses currently registered 2014-2015. 14/10/07 TN
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 15,
+          "fontWeight": "bold",
+          "paddingBottom": 10,
+        }
+      }
+    >
+      Please note that this admission offer is CONDITIONAL.
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 15,
+          "fontWeight": "bold",
+          "paddingBottom": 10,
+        }
+      }
+    >
+      To Keep your spot in CO-OP:
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 15,
+          "paddingBottom": 10,
+        }
+      }
+    >
+      1) You Need to attend the first mandatory workshop before accepting your offer of admission. If you miss the first workshop, your offer of admission may be revoked. 
+      
+
+      
+
+      2) Your CGPA must be above the minimum required CGPA for your program following the current study semester.
+    </Text>
+  </View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "backgroundColor": "#a9343a",
+        "color": "white",
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "padding": 10,
+        "textAlign": "center",
+      }
+    }
+  >
+    Confirming Participation
+  </Text>
+  <View
+    style={
+      Object {
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontSize": 16,
+            "fontWeight": "bold",
+          },
+          Object {
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      N/A
+    </Text>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            source={1}
+            style={
+              Object {
+                "tintColor": undefined,
+              }
+            }
+          />
+        </View>
+      </View>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "flex": 1,
+            "flexWrap": "wrap",
+          }
+        }
+      >
+        *I have read the CO-OP Admission Agreement and agree to comply with the terms and conditions.
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#d8d8d8",
+          "borderRadius": 15,
+          "margin": 50,
+          "opacity": 1,
+          "padding": 15,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#a9343a",
+            "fontWeight": "bold",
+            "textAlign": "center",
+          }
+        }
+      >
+        ACCEPT
+      </Text>
+    </View>
+  </View>
+</ScrollView>
+`;

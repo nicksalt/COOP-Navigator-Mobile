@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Field snapshot renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "padding": 20,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "gray",
+        "fontSize": 10,
+      }
+    }
+  >
+    Name
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "fontSize": 22,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    John
+  </Text>
+</View>
+`;
+
+exports[`Field snapshot renders correctly 2`] = `
+<View
+  style={
+    Object {
+      "padding": 20,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "gray",
+        "fontSize": 10,
+      }
+    }
+  >
+    Name
+  </Text>
+  <View
+    style={Object {}}
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      John
+    </Text>
+  </View>
+</View>
+`;

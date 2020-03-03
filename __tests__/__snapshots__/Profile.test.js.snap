@@ -1,0 +1,643 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile snapshot renders correctly 1`] = `
+<View>
+  <ActivityIndicator
+    animating={true}
+    color="gray"
+    hidesWhenStopped={true}
+    size="large"
+  />
+</View>
+`;
+
+exports[`Profile snapshot renders correctly 2`] = `
+<View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+  >
+    There was an error getting your profile:
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+  >
+    ERROR OCCURRED
+  </Text>
+</View>
+`;
+
+exports[`Profile snapshot renders correctly 3`] = `
+<ScrollView
+  style={Object {}}
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "backgroundColor": "#a9343a",
+        "color": "white",
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "padding": 10,
+        "textAlign": "center",
+      }
+    }
+  >
+    Personal Information
+  </Text>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "justifyContent": "flex-start",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "padding": 20,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "gray",
+            "fontSize": 10,
+          }
+        }
+      >
+        Student Number
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "fontSize": 22,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        7680262
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "padding": 20,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "gray",
+            "fontSize": 10,
+          }
+        }
+      >
+        Program of Studies
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "fontSize": 22,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Software Engineering
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "justifyContent": "flex-start",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "padding": 20,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "gray",
+            "fontSize": 10,
+          }
+        }
+      >
+        Title
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "fontSize": 22,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Mr.
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "padding": 20,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "gray",
+            "fontSize": 10,
+          }
+        }
+      >
+        First Name
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "fontSize": 22,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Alexandre
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "padding": 20,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "gray",
+            "fontSize": 10,
+          }
+        }
+      >
+        Last Name
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "fontSize": 22,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Mizon
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "padding": 20,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "gray",
+            "fontSize": 10,
+          }
+        }
+      >
+        Gender
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "fontSize": 22,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        M
+      </Text>
+    </View>
+  </View>
+  <View>
+    <View
+      style={
+        Object {
+          "padding": 20,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "gray",
+            "fontSize": 10,
+          }
+        }
+      >
+        Language
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "fontSize": 22,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        English
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "padding": 20,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "gray",
+            "fontSize": 10,
+          }
+        }
+      >
+        Citizenship
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "fontSize": 22,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Canadian
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "justifyContent": "flex-start",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "padding": 20,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "gray",
+            "fontSize": 10,
+          }
+        }
+      >
+        Accessibility
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "fontSize": 22,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        No
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "padding": 20,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "gray",
+            "fontSize": 10,
+          }
+        }
+      >
+        Resume
+      </Text>
+      <View
+        style={Object {}}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "blue",
+                "fontSize": 18,
+                "textDecorationLine": "underline",
+              }
+            }
+          >
+            Download
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "backgroundColor": "#a9343a",
+        "color": "white",
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "padding": 10,
+        "textAlign": "center",
+      }
+    }
+  >
+    Contact Information
+  </Text>
+  <View
+    style={
+      Object {
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "gray",
+          "fontSize": 10,
+        }
+      }
+    >
+      Email
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 22,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      amizo067@uottawa.ca
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "gray",
+          "fontSize": 10,
+        }
+      }
+    >
+      LinkedIn
+    </Text>
+    <View
+      style={Object {}}
+    >
+      <View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "blue",
+              "fontSize": 18,
+              "textDecorationLine": "underline",
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "gray",
+          "fontSize": 10,
+        }
+      }
+    >
+      Skype Username
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 22,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "gray",
+          "fontSize": 10,
+        }
+      }
+    >
+      Phone Number
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 22,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      6142225555
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "gray",
+          "fontSize": 10,
+        }
+      }
+    >
+      Address
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 22,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      800 King Edward Ave,
+Ottawa ON, K8H 4Z3
+    </Text>
+  </View>
+</ScrollView>
+`;

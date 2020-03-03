@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JobApplications snapshot renders correctly 1`] = `
+<FlatList
+  ItemSeparatorComponent={[Function]}
+  ListEmptyComponent={false}
+  keyExtractor={[Function]}
+  onRefresh={[Function]}
+  refreshing={true}
+  renderItem={[Function]}
+/>
+`;
+
+exports[`JobApplications snapshot renders correctly 2`] = `
+<View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+  >
+    There was an error fetching your applications:
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+  >
+    ERROR OCCURRED
+  </Text>
+</View>
+`;
+
+exports[`JobApplications snapshot renders correctly 3`] = `
+<FlatList
+  ItemSeparatorComponent={[Function]}
+  ListEmptyComponent={
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 13,
+          "margin": 2,
+          "padding": 5,
+          "textAlign": "center",
+        }
+      }
+    >
+      You have not applied to any jobs.
+    </Text>
+  }
+  data={Array []}
+  keyExtractor={[Function]}
+  onRefresh={[Function]}
+  refreshing={false}
+  renderItem={[Function]}
+/>
+`;

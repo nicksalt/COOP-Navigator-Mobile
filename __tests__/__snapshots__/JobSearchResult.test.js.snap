@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JobSearchResult snapshot renders correctly 1`] = `
+<FlatList
+  ItemSeparatorComponent={[Function]}
+  ListEmptyComponent={false}
+  keyExtractor={[Function]}
+  onRefresh={[Function]}
+  refreshing={true}
+  renderItem={[Function]}
+/>
+`;
+
+exports[`JobSearchResult snapshot renders correctly 2`] = `
+<View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+  >
+    There was an error fetching jobs:
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+  >
+    ERROR OCCURRED
+  </Text>
+</View>
+`;
+
+exports[`JobSearchResult snapshot renders correctly 3`] = `
+<FlatList
+  ItemSeparatorComponent={[Function]}
+  ListEmptyComponent={
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      No matching jobs.
+    </Text>
+  }
+  data={Array []}
+  keyExtractor={[Function]}
+  onRefresh={[Function]}
+  refreshing={false}
+  renderItem={[Function]}
+/>
+`;

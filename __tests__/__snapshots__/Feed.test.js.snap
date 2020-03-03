@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Feed snapshot renders correctly 1`] = `
+<FlatList
+  data={
+    Array [
+      Object {
+        "date": "Oct 18, 2017",
+        "description": "Last day to update your resume for the Winter Coop term is Oct 30, 2017",
+        "footerText": "Fall - 2nd, 3rd, or 4th work term only",
+        "icon": "md-calendar",
+        "key": 0,
+        "title": "Co-op Key Date",
+      },
+      Object {
+        "date": "Feb 1, 2018",
+        "description": "IBM selected you for an interview for the position of Junior Software developer",
+        "footerText": "Winter work term",
+        "icon": "ios-people",
+        "key": 1,
+        "title": "New interview!",
+      },
+      Object {
+        "date": "Feb 10, 2018",
+        "description": "Google really liked you when you interviewed with them. They have offered you a position as a Software Engineer on their Android team!",
+        "footerText": "Summer Work Term",
+        "icon": "ios-trophy",
+        "key": 2,
+        "title": "Congratulations!",
+      },
+      Object {
+        "date": "Apr 27, 2018",
+        "description": "Please head on over to the navigator and confirm your intention to participate in coop before ",
+        "footerText": "Fall - All work terms",
+        "icon": "md-calendar",
+        "key": 3,
+        "title": "Co-op Key Date",
+      },
+      Object {
+        "date": "Feb 1, 2018",
+        "description": "YouTube selected you for an interview for the position of Junior Software developer",
+        "footerText": "Winter work term",
+        "icon": "ios-people",
+        "key": 4,
+        "title": "New interview!",
+      },
+      Object {
+        "date": "Feb 1, 2018",
+        "description": "YouTube selected you for an interview for the position of Junior Software developer",
+        "footerText": "Winter work term",
+        "icon": "ios-people",
+        "key": 5,
+        "title": "New interview!",
+      },
+    ]
+  }
+  keyExtractor={[Function]}
+  renderItem={[Function]}
+/>
+`;

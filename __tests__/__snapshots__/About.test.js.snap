@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About snapshot renders correctly 1`] = `
+<ScrollView>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "backgroundColor": "#a9343a",
+        "color": "white",
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "padding": 10,
+        "textAlign": "center",
+      }
+    }
+  >
+    General Information
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "black",
+        "fontWeight": "bold",
+        "padding": 20,
+        "textAlign": "justify",
+      }
+    }
+  >
+    Co-operative education at the University of Ottawa allows you to apply concepts learned in class during paid work terms. After about four years of study, you will have not only a diploma that indicates you participated in a CO-OP program but also approximately 16 months of experience in your field of study and a network of valuable contacts. All of these factors will contribute to helping you find a job more easily after graduation.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "backgroundColor": "#a9343a",
+        "color": "white",
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "padding": 10,
+        "textAlign": "center",
+      }
+    }
+  >
+    Contact Information
+  </Text>
+  <View
+    style={
+      Object {
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "gray",
+          "fontSize": 10,
+        }
+      }
+    >
+      Email
+    </Text>
+    <View
+      style={Object {}}
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "blue",
+            "fontSize": 18,
+            "textDecorationLine": "underline",
+          }
+        }
+      >
+        coop@uottawa.ca
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "gray",
+          "fontSize": 10,
+        }
+      }
+    >
+      Telephone
+    </Text>
+    <View
+      style={Object {}}
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "blue",
+            "fontSize": 18,
+            "textDecorationLine": "underline",
+          }
+        }
+      >
+        613-562‑5741
+      </Text>
+    </View>
+  </View>
+</ScrollView>
+`;
