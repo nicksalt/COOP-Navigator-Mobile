@@ -33,25 +33,26 @@ export default class Drawer extends React.Component {
   renderIcon = ({ route, focused, tintColor }) => {
     let iconName;
     const { routeName } = route;
+    // Nick - add comments for focused commands. No longer supported maybe?
     if (routeName === "Feed") {
-      iconName = "ios-notifications" + (focused ? "" : "-outline");
+      iconName = "ios-notifications"; //+ (focused ? "" : "-outline");
     } else if (routeName === "Search") {
-      iconName = "ios-search" + (focused ? "" : "-outline");
+      iconName = "ios-search"; //+ + (focused ? "" : "-outline");
     } else if (routeName === "My Applications") {
-      iconName = "ios-list-box" + (focused ? "" : "-outline");
+      iconName = "ios-list-box"; //++ (focused ? "" : "-outline");
     } else if (routeName === "About") {
-      iconName = "ios-information-circle" + (focused ? "" : "-outline");
+      iconName = "ios-information-circle"; //++ (focused ? "" : "-outline");
     } else if (routeName === "Admission") {
-      iconName = "ios-school" + (focused ? "" : "-outline");
+      iconName = "ios-school"; //++ (focused ? "" : "-outline");
     } else if (routeName === "Profile") {
-      iconName = "ios-person" + (focused ? "" : "-outline");
+      iconName = "ios-person"; //+ + (focused ? "" : "-outline");
     } else if (routeName === "Logout") {
-      iconName = "ios-log-out" + (focused ? "" : "-outline");
+      iconName = "ios-log-out"; //++ (focused ? "" : "-outline");
     } else if (routeName === "Interviews") {
-      iconName = "ios-chatbubbles" + (focused ? "" : "-outline");
+      iconName = "ios-chatbubbles"; //+ + (focused ? "" : "-outline");
     } else {
       console.log("NO custom icon");
-      iconName = "ios-add" + (focused ? "" : "-outline");
+      iconName = "ios-add"; //++ (focused ? "" : "-outline");
     }
 
     return (

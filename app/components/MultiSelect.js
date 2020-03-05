@@ -26,7 +26,7 @@ import PropTypes from "prop-types";
 export default class MultiSelect extends React.Component {
   state = { selected: new Map(), isModalVisible: false };
 
-  componentWillReceiveProps = nextProps => {
+  UNSAFE_componentWillReceiveProps = nextProps => {
     //if defaultSelection was passed, we must set state to match
     if (nextProps.defaultSelection) {
       this.setState({ selected: new Map(nextProps.defaultSelection) });

@@ -261,7 +261,7 @@ const RootNavigator = createSwitchNavigator(
     AppScreens: DrawerLayout
   },
   {
-    initialRouteName: "AuthScreens"
+    initialRouteName: "AppScreens"
   }
 );
 
